@@ -65,6 +65,29 @@
   }
 }
 
+.added-to-cart {
+  animation: fadeINOut 0.5s ease-in-out;
+}
+
+@key-frames fadeInOut {
+  0% {
+    opacity: 0%;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+
 .home-page .product-container {
   padding-top: 40px;
   padding-bottom: 25px;
@@ -141,7 +164,7 @@
   /* At first, the "Added to cart" message will
      be invisible. Use JavaScript to change the
      opacity and make it visible. */
-  opacity: 0;
+  opacity: 1;
 }
 
 .home-page .added-to-cart img {
