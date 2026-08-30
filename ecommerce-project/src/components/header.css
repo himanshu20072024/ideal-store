@@ -1,5 +1,5 @@
 .header {
-  background-color: rgb(8, 79, 45);
+  background-color: rgb(32, 69, 51);
   color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -39,7 +39,7 @@
 }
 
 .header .logo {
-  height: 26px;
+  height: 56px;
   margin-top: 1px;
 }
 

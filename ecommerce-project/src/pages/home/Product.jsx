@@ -68,10 +68,10 @@ export function Product({ product, loadCart }) {
 
             <div className="product-spacer"></div>
 
-            {isAdded && (<div className="added-to-cart">
+            <div className={`added-to-cart ${isAdded ? 'show' : ''}`}>
                 <img src="images/icons/checkmark.png" />
                 Added
-            </div>)}
+            </div>
 
             <button className="add-to-cart-button button-primary"
                 data-testid="add-to-cart-button"
